@@ -1,69 +1,29 @@
-# Image Processing Assignment
+# EC7212: COMPUTER VISION AND IMAGE PROCESSING
+# ASSIGNMENT 01
 
-This project demonstrates basic image processing operations using Python and OpenCV. The operations are implemented in a Jupyter notebook and include:
+## 01. Original Image
+![Original image](Cat.jpg)
 
-## Features
+## 02. Intensity Images
+![Intensity images](outputs/intensity/reduced_2.png)
+![Intensity images](outputs/intensity/reduced_4.png)
+![Intensity images](outputs/intensity/reduced_8.png)
+![Intensity images](outputs/intensity/reduced_16.png)
+![Intensity images](outputs/intensity/reduced_32.png)
+![Intensity images](outputs/intensity/reduced_64.png)
+![Intensity images](outputs/intensity/reduced_128.png)
+![Intensity images](outputs/intensity/reduced_256.png)
 
-1. **Reduce Number of Intensity Levels**
+## 03. Spatial Averaging
+![Spatial Averaging](outputs/mean_filter/mean_filter_3x3.png)
+![Spatial Averaging](outputs/mean_filter/mean_filter_10x10.png)
+![Spatial Averaging](outputs/mean_filter/mean_filter_20x20.png)
 
-   - Reduces the number of intensity levels in a grayscale image from 256 to a user-specified value (must be a power of 2).
-   - **Example Output:**
-     - ![Intensity Levels 2](outputs/intensity/reduced_2.png)
-     - ![Intensity Levels 4](outputs/intensity/reduced_4.png)
-     - ![Intensity Levels 8](outputs/intensity/reduced_8.png)
-     - ![Intensity Levels 16](outputs/intensity/reduced_16.png)
-     - ![Intensity Levels 32](outputs/intensity/reduced_32.png)
-     - ![Intensity Levels 64](outputs/intensity/reduced_64.png)
-     - ![Intensity Levels 128](outputs/intensity/reduced_128.png)
-     - ![Intensity Levels 256](outputs/intensity/reduced_256.png)
+## 04. Rotate Image
+![Rotate Image](outputs/rotation/rotated_45.png)
+![Rotate Image](outputs/rotation/rotated_90.png)
 
-2. **Spatial Averaging (Mean Filtering)**
-
-   - Applies a mean filter with kernel sizes 3x3, 10x10, and 20x20 to the image.
-   - **Example Output:**
-     - ![3x3 Mean Filter](outputs/mean_filter/mean_filter_3x3.png)
-     - ![10x10 Mean Filter](outputs/mean_filter/mean_filter_10x10.png)
-     - ![20x20 Mean Filter](outputs/mean_filter/mean_filter_20x20.png)
-
-3. **Image Rotation**
-
-   - Rotates the image by 45 and 90 degrees.
-   - **Example Output:**
-     - ![Rotated 45](outputs/rotation/rotated_45.png)
-     - ![Rotated 90](outputs/rotation/rotated_90.png)
-
-4. **Block-wise Averaging (Spatial Resolution Reduction)**
-   - For each non-overlapping block of size 3x3, 5x5, and 7x7, replaces all pixels in the block with their average value.
-   - **Example Output:**
-     - ![Blockwise 3x3](outputs/blockwise/blockwise_3x3.png)
-     - ![Blockwise 5x5](outputs/blockwise/blockwise_5x5.png)
-     - ![Blockwise 7x7](outputs/blockwise/blockwise_7x7.png)
-
-## How to Use
-
-1. Open the notebook `image_processing_assignment.ipynb` in Jupyter or VS Code.
-2. Update the `image_path` variable in the notebook to point to your image file (e.g., `Cat.jpg`).
-3. Run each cell in order to see the results of each operation. The notebook will save output images in the `outputs` folder for easy reference.
-
-## Requirements
-
-- Python 3.x
-- OpenCV (`cv2`)
-- NumPy
-- Matplotlib
-
-You can install the required packages using:
-
-```
-pip install opencv-python numpy matplotlib
-```
-
-## Notes
-
-- The notebook assumes the input image is grayscale. If you use a color image, it will be converted to grayscale.
-- Make sure your image file is in the same directory as the notebook or provide the correct path.
-- Output images will be saved in the `outputs` directory for documentation and review.
-
-## License
-
-This project is for educational purposes.
+## 05. Block Averaging
+![Block Averaging](outputs/blockwise/blockwise_3x3.png)
+![Block Averaging](outputs/blockwise/blockwise_5x5.png)
+![Block Averaging](outputs/blockwise/blockwise_7x7.png)
