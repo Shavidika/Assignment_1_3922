@@ -1,29 +1,24 @@
 # EC7212: COMPUTER VISION AND IMAGE PROCESSING
 # ASSIGNMENT 01
 
-## 01. Original Image
-![Original image](Cat.jpg)
+![Original image](https://github.com/user-attachments/assets/7bb51376-99a2-4ac4-83ca-8dafd7cb98ca)
 
+ 
 ## 02. Intensity Images
-![Intensity images](outputs/intensity/reduced_2.png)
-![Intensity images](outputs/intensity/reduced_4.png)
-![Intensity images](outputs/intensity/reduced_8.png)
-![Intensity images](outputs/intensity/reduced_16.png)
-![Intensity images](outputs/intensity/reduced_32.png)
-![Intensity images](outputs/intensity/reduced_64.png)
-![Intensity images](outputs/intensity/reduced_128.png)
-![Intensity images](outputs/intensity/reduced_256.png)
 
+![Intesity images](https://github.com/user-attachments/assets/80045ff1-51c2-408a-b523-d4ea45fb8043)
+
+ 
 ## 03. Spatial Averaging
-![Spatial Averaging](outputs/mean_filter/mean_filter_3x3.png)
-![Spatial Averaging](outputs/mean_filter/mean_filter_10x10.png)
-![Spatial Averaging](outputs/mean_filter/mean_filter_20x20.png)
+
+![spatial](https://github.com/user-attachments/assets/54e1724d-52e1-45d7-9b3b-f40702c69acb)
+
 
 ## 04. Rotate Image
-![Rotate Image](outputs/rotation/rotated_45.png)
-![Rotate Image](outputs/rotation/rotated_90.png)
+
+![rotate](https://github.com/user-attachments/assets/8424d60c-4251-4da0-9613-ae44484ae942)
+
 
 ## 05. Block Averaging
-![Block Averaging](outputs/blockwise/blockwise_3x3.png)
-![Block Averaging](outputs/blockwise/blockwise_5x5.png)
-![Block Averaging](outputs/blockwise/blockwise_7x7.png)
+
+![block](https://github.com/user-attachments/assets/1bbca513-9a0c-467b-a457-8df5378b6b1a)
