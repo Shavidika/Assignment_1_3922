@@ -8,38 +8,37 @@ This project demonstrates basic image processing operations using Python and Ope
 
    - Reduces the number of intensity levels in a grayscale image from 256 to a user-specified value (must be a power of 2).
    - **Example Output:**
-     - ![Intensity Levels 2](outputs/intensity_levels_2.png)
-     - ![Intensity Levels 4](outputs/intensity_levels_4.png)
-     - ![Intensity Levels 8](outputs/intensity_levels_8.png)
-     - ...
+     - ![Intensity Levels 2](reduced_2.png)
+     - ![Intensity Levels 4](reduced_4.png)
+     - ![Intensity Levels 8](reduced_8.png)
+     - ![Intensity Levels 16](reduced_16.png)
+     - ![Intensity Levels 32](reduced_32.png)
+     - ![Intensity Levels 64](reduced_64.png)
+     - ![Intensity Levels 128](reduced_128.png)
+     - ![Intensity Levels 256](reduced_256.png)
 
 2. **Spatial Averaging (Mean Filtering)**
 
    - Applies a mean filter with kernel sizes 3x3, 10x10, and 20x20 to the image.
    - **Example Output:**
-     - ![3x3 Mean Filter](outputs/mean_filter_3x3.png)
-     - ![10x10 Mean Filter](outputs/mean_filter_10x10.png)
-     - ![20x20 Mean Filter](outputs/mean_filter_20x20.png)
+     - _Output images for mean filtering are not saved. Please run the notebook and save the outputs if you want to display them here._
 
 3. **Image Rotation**
 
    - Rotates the image by 45 and 90 degrees.
    - **Example Output:**
-     - ![Rotated 45](outputs/rotated_45.png)
-     - ![Rotated 90](outputs/rotated_90.png)
+     - _Output images for rotation are not saved. Please run the notebook and save the outputs if you want to display them here._
 
 4. **Block-wise Averaging (Spatial Resolution Reduction)**
    - For each non-overlapping block of size 3x3, 5x5, and 7x7, replaces all pixels in the block with their average value.
    - **Example Output:**
-     - ![Blockwise 3x3](outputs/blockwise_3x3.png)
-     - ![Blockwise 5x5](outputs/blockwise_5x5.png)
-     - ![Blockwise 7x7](outputs/blockwise_7x7.png)
+     - _Output images for block-wise averaging are not saved. Please run the notebook and save the outputs if you want to display them here._
 
 ## How to Use
 
 1. Open the notebook `image_processing_assignment.ipynb` in Jupyter or VS Code.
 2. Update the `image_path` variable in the notebook to point to your image file (e.g., `Cat.jpg`).
-3. Run each cell in order to see the results of each operation. The notebook will save output images in an `outputs` folder for easy reference.
+3. Run each cell in order to see the results of each operation. The notebook will save output images in the project folder for easy reference.
 
 ## Requirements
 
@@ -58,7 +57,7 @@ pip install opencv-python numpy matplotlib
 
 - The notebook assumes the input image is grayscale. If you use a color image, it will be converted to grayscale.
 - Make sure your image file is in the same directory as the notebook or provide the correct path.
-- Output images will be saved in an `outputs` directory for documentation and review.
+- Output images will be saved in the project directory for documentation and review.
 
 ## License
 
